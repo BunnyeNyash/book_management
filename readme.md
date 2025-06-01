@@ -78,6 +78,7 @@ python3 -c "from django.core.management.utils import get_random_secret_key; prin
 Set up the database:
 
 ```bash
+python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
