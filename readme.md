@@ -94,23 +94,24 @@ python3 manage.py runserver
 ## Project Structure
 ```
 book_management/
-├── book_management/ # Project configuration
+├── book_management/                                 # Project configuration
 │ ├── **init**.py
-│ ├── settings.py # Configuration (e.g., SECRET_KEY, ALLOWED_HOSTS)
-│ ├── urls.py # URL routing
-│ ├── wsgi.py # WSGI deployment
-│ └── asgi.py # ASGI deployment
-├── book_app/ # App for book management
-│ ├── migrations/ # Database migration files
+│ ├── settings.py                                     # Configuration (e.g., SECRET_KEY, ALLOWED_HOSTS)
+│ ├── urls.py                                         # URL routing
+│ ├── wsgi.py                                         # WSGI deployment
+│ └── asgi.py                                         # ASGI deployment
+├── book_app/                                         # App for book management
+│ ├── migrations/                                     # Database migration files
 │ ├── **init**.py
-│ ├── models.py # Defines the Book model
-│ ├── serializers.py # Handles data serialization
-│ ├── views.py # Defines the BookViewSet
-│ └── urls.py # URL configuration for the API
-├── manage.py # Management command-line utility
-├── .env # Environment variables (e.g., SECRET_KEY)
-├── .gitignore # Excludes sensitive files from Git
-└── README.md # This file
+│ ├── models.py                                       # Defines the Book model
+│ ├── serializers.py                                  # Handles data serialization
+│ ├── views.py                                        # Defines the BookViewSet
+│ └── urls.py                                         # URL configuration for the API
+├── manage.py                                         # Management command-line utility
+├── .env                                              # Environment variables (e.g., SECRET_KEY)
+├── .gitignore                                        # Excludes sensitive files from Git
+├── basic-API-for-managing-books.png                  # the output image
+└── README.md                                         # This file
 ```
 
 ## Configuration
