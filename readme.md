@@ -104,8 +104,11 @@ book_management/
 │ ├── migrations/                                     # Database migration files
 │ ├── **init**.py
 │ ├── models.py                                       # Defines the Book model
+│ ├── admin.py
+│ ├── apps.py
 │ ├── serializers.py                                  # Handles data serialization
 │ ├── views.py                                        # Defines the BookViewSet
+│ ├── tests.py
 │ └── urls.py                                         # URL configuration for the API
 ├── manage.py                                         # Management command-line utility
 ├── .env                                              # Environment variables (e.g., SECRET_KEY)
