@@ -89,7 +89,7 @@ Start the server to test the API:
 python3 manage.py runserver
 ```
 
-    - Visit http://127.0.0.1:8000/api/books/ in your browser to see the browsable API.
+- Visit http://127.0.0.1:8000/api/books/ in your browser to see the browsable API.
 
 ## Project Structure
 
