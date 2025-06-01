@@ -4,8 +4,7 @@
 
 This project sets up a basic API for managing books, utilizing Django and Django REST Framework (DRF). The API provides an endpoint (`/api/books`) that allows listing and creating books, accessible through DRF’s browsable API interface. The interface, as shown in the image below, enables users to view a list of books and add new ones via a simple form.
 
-![Book List Create API](<basic API for managing books.png>)
-
+![Book List Create API](<basic-API-for-managing-books.png>)
 The image shows a "Book List Create API" with an endpoint (/api/books) that can list and create books using DRF’s (Django REST Framework) browsable API interface.
 
 ## Features
