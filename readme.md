@@ -65,7 +65,7 @@ DEBUG=False
 ALLOWED_HOSTS=localhost,127.0.0.1
 ```
 
-    - Generate a secure key:
+- Generate a secure key:
 
 ```bash
 python3 -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
