@@ -92,7 +92,7 @@ python3 manage.py runserver
 - Visit http://127.0.0.1:8000/api/books/ in your browser to see the browsable API.
 
 ## Project Structure
-
+```
 book_management/
 ├── book_management/ # Project configuration
 │ ├── **init**.py
@@ -111,6 +111,7 @@ book_management/
 ├── .env # Environment variables (e.g., SECRET_KEY)
 ├── .gitignore # Excludes sensitive files from Git
 └── README.md # This file
+```
 
 ## Configuration
 
